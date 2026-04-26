@@ -1,11 +1,12 @@
 # E-Commerce Sales Analysis
 
-This project analyzes an e-commerce sales dataset using Python, Pandas, and Plotly. The analysis is built in a Jupyter Notebook and explores sales, profit, customer segments, product categories, and monthly performance trends.
+This project analyzes an e-commerce sales dataset using Python, Pandas, Plotly, and Power BI. The analysis is built in a Jupyter Notebook and supported by an interactive sales dashboard that explores sales, profit, customer segments, product categories, and monthly performance trends.
 
 ## Project Files
 
 - `e commerce sales.ipynb` - Main Jupyter Notebook containing the complete analysis and visualizations.
 - `Sample - Superstore.csv` - Source dataset used for the analysis.
+- `Sales Dashboard.pbix` - Power BI dashboard file for interactive sales and profit reporting.
 
 ## Dataset Overview
 
@@ -44,6 +45,8 @@ The notebook covers:
 - Sales and profit comparison by customer segment
 - Sales-to-profit ratio analysis by customer segment
 
+The Power BI dashboard provides an interactive view of key sales metrics, profit performance, product category insights, and business trends from the same dataset.
+
 ## Key Insights
 
 - Technology is the highest-performing category by both sales and profit.
@@ -58,6 +61,7 @@ The notebook covers:
 - Pandas
 - Plotly Express
 - Plotly Graph Objects
+- Microsoft Power BI Desktop
 
 ## How to Run
 
@@ -76,6 +80,8 @@ The notebook covers:
 
 4. Run the cells from top to bottom.
 
+To view the dashboard, open `Sales Dashboard.pbix` in Microsoft Power BI Desktop.
+
 Make sure `Sample - Superstore.csv` stays in the same folder as the notebook, because the notebook loads it using this relative path:
 
 ```python
@@ -84,4 +90,4 @@ pd.read_csv("Sample - Superstore.csv", encoding="latin-1")
 
 ## Output
 
-The notebook produces interactive Plotly charts for sales and profit trends. These visualizations help identify high-performing categories, profitable sub-categories, and customer segments with stronger business performance.
+The notebook produces interactive Plotly charts for sales and profit trends. The Power BI dashboard adds a dedicated reporting view for exploring overall sales performance, profit trends, category-level performance, and customer segment insights.
